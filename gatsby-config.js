@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `My Portfolio`,
+    description: `Anthony Rende's portfolio`,
+    author: `Anthony Rende`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,6 +26,16 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+      social: [
+        {
+          name: "twitter",
+          url: "https://twitter.com/rendedev",
+        },
+        {
+          name: "github",
+          url: "https://github.com/jazz-code",
+        },
+      ],
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
