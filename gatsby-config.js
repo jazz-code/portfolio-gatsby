@@ -3,6 +3,16 @@ module.exports = {
     title: `My Portfolio`,
     description: `Anthony Rende's portfolio`,
     author: `Anthony Rende`,
+    menuLinks:[
+      {
+        name:'home',
+        link:'/'
+      },
+      {
+        name:'page2',
+        link:'/page-2'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
